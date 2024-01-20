@@ -1,38 +1,124 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar .menubar:active{
+  background-color: rgb(240, 163, 62);
+}
+.navbar{
+  background-color:rgb(240, 178, 156);
+  position: relative;
+  backdrop-filter: blur(10px);
+  box-shadow: 3px 3px 3px rgb(226, 151, 81);
+  
+
+ }
+
+.navbar .menubar{
+  margin-left: 60px;
+}
+.navbar .nav-link{
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 50px;
+  color: white;
+  border: none;
+}
+
+.navbar .nav-link:hover{
+color: rgb(207, 93, 51);
+}
+.navbar h1{
+  padding-left: 50px;
+  color: rgb(22, 2, 41);
+}
+
+#basic-navbar-nav{
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon{
+  position: absolute;
+  top: 30px;
+  right: 70px;
+  color: black !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* homesec */
+#homesec{
+  background-image: url("./pages/image/image2.jpg");
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 500px;
+  margin-top: 58px;
+  padding-top: 100px;
+  color:white;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#homesec button{
+  border:1px solid white;
   color: white;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#homesec .button1{
+  background-color: rgb(223, 170, 57);
+}
+#homesec .button1:hover{
+  background-color: white;
+  color:rgb(223, 170, 57);
+}
+#homesec .button2:hover{
+  background-color: rgb(223, 170, 57);
+}
+#homesec .row h5{
+  color: rgb(221, 86, 37);
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+#homesec .row h1{
+  font-size: 45px;
+  font-weight: bold;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* about */
+.about{
+  overflow: hidden;
+  
+}
+.about h5{
+  color: rgb(221, 86, 37);
+  font-weight: 600;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.about img{
+  width: 80%;
+  margin-left: 50px;
+  margin-top:20px;
+}
+.about p{
+  margin-right: 20px;
+
+}
+.about button{
+  border:1px solid white;
+  color: white;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(223, 170, 57);
+  width: 30%;
+
+
+}
+.about button:hover{
+  background-color: white;
+  border: 1px solid black;
+  color:  rgb(223, 170, 57);
 }
